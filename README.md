@@ -24,9 +24,9 @@ O objetivo é simular um serviço moderno de streaming, permitindo navegação p
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Front-end:** HTML, CSS, JavaScript  
-- **Back-end:** (definir: Node.js / Python / PHP)  
-- **Banco de Dados:** MySQL  
+- **Front-end:**
+- **Back-end:** 
+- **Banco de Dados:**  
 - **Versionamento:** Git & GitHub  
 
 ---
