@@ -14,9 +14,11 @@
 
 ## 🎯 Sobre o Projeto
 
-O **AnimePunch Platform** é um projeto fullstack em fase de concepção, idealizado para simular uma plataforma moderna de streaming de animes.
+O **AnimePunch Platform** é um projeto fullstack em fase de concepção, idealizado para simular uma plataforma moderna de **streaming de animes**.
 
-A proposta é desenvolver uma aplicação estruturada como um produto real, com foco em:
+A proposta é desenvolver uma aplicação estruturada como um produto real, permitindo que usuários naveguem por um catálogo de animes, visualizem informações detalhadas e assistam episódios diretamente na plataforma.
+
+O projeto também busca aplicar conceitos importantes de engenharia de software, como:
 
 - Arquitetura escalável  
 - Organização profissional de código  
@@ -32,77 +34,78 @@ Este é um projeto **exclusivamente para fins educacionais e de portfólio**.
 
 Seu objetivo é:
 
-- Praticar desenvolvimento fullstack
-- Aplicar boas práticas de arquitetura
-- Documentar decisões técnicas
-- Simular um produto real sem finalidade comercial
+- Praticar desenvolvimento fullstack  
+- Aplicar boas práticas de arquitetura  
+- Documentar decisões técnicas  
+- Simular o desenvolvimento de uma plataforma real  
 
-Não possui vínculo com marcas, estúdios ou distribuidoras oficiais.
+O projeto **não possui vínculo com estúdios, distribuidoras ou plataformas oficiais de streaming**.
 
 ---
 
 ## 🚀 Funcionalidades Planejadas
 
 - 📺 Catálogo de animes  
-- 🔍 Sistema de busca e filtros  
-- 👤 Sistema de autenticação  
+- 📄 Página de detalhes do anime  
+- 📂 Organização por temporadas  
+- 📜 Listagem de episódios  
+- ▶️ Player de reprodução de episódios  
+- ⏭️ Navegação entre episódios  
+
+---
+
+## 🔮 Funcionalidades Futuras
+
+- 🔍 Sistema de busca de animes  
+- 🏷️ Filtro por gênero  
 - ⭐ Lista de favoritos  
 - 📜 Histórico de episódios assistidos  
-- ▶️ Player de exibição  
-- 📂 Organização por temporadas  
+- ⭐ Sistema de avaliação de animes  
 
 ---
 
 ## 🛠️ Tecnologias
 
-> 🔧 Stack em definição.  
-> A escolha das tecnologias será feita com base em escalabilidade, performance e boas práticas de mercado.
+*(A definir)*
 
 ---
 
 ## 🗄️ Estrutura Base do Banco de Dados
 
-Entidades planejadas:
+Entidades principais planejadas:
 
 - `users`
 - `animes`
+- `seasons`
 - `episodes`
 - `genres`
-- `categories`
 - `favorites`
 - `watch_history`
 
-Modelagem orientada para:
-
-- Normalização
-- Performance em consultas
-- Facilidade de expansão futura
-
 ---
 
-## 📂 Estrutura Inicial de Pastas
+## 📂 Estrutura do Projeto
 
 ```bash
 animepunch-platform/
 │
 ├── frontend/
+│   ├── components/
+│   ├── pages/
+│   ├── services/
+│   └── styles/
+│
 ├── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── services/
+│   └── middlewares/
+│
 ├── database/
+│   ├── migrations/
+│   └── seeds/
+│
+├── docs/
+│
 └── README.md
-```
-
----
-
-## 📈 Roadmap Inicial
-
-- [ ] Definição da stack tecnológica  
-- [ ] Modelagem detalhada do banco de dados  
-- [ ] Estruturação da arquitetura do backend  
-- [ ] Desenvolvimento da interface inicial  
-- [ ] Implementação da autenticação  
-
----
-
-## 🎯 Objetivo Final
-
-Construir uma aplicação fullstack completa, documentando decisões arquiteturais e aplicando boas práticas profissionais, com foco em evolução contínua e aprendizado estruturado.
